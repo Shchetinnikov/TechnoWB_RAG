@@ -13,3 +13,12 @@
 - Model - OpenAI API | GPT 3.5 Turbo
 
 <img src="./imgs/WB_video.gif">
+
+## Запуск
+Чтобы запустить решение на свой машине, выполнить команды в разных терминалах:
+```
+    streamlit run client/app.py
+```
+```
+    uvicorn server.app:app
+```
